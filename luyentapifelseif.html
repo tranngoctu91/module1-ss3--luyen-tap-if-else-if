@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyentapifelseif</title>
+</head>
+<body>
+
+
+</body>
+<script>
+    let username = prompt("Input username");
+    let password = ""
+    if (username == "Admin") {
+        password = prompt("Input password");
+    } else if (username == null) {
+        alert("Canceled")
+    }else {
+        alert("I don't know you")
+    }
+
+    if(password == "TheMaster"){
+        alert("Welcome")
+    }else if(password == null){
+        alert("Canceled");
+    }else{
+        alert("Wrong password");
+    }
+
+</script>
+</html>
